@@ -22,7 +22,7 @@
 
 (defn mkFn6 [fun]
   (fn [a b c d e f]
-    ((((((fun a) b) c) d) e) f*)))
+    ((((((fun a) b) c) d) e) f)))
 
 (defn mkFn7 [fun]
   (fn [a b c d e f g]
